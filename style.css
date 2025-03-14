@@ -1,4 +1,8 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 .header {
     background-color: black;
@@ -46,4 +50,42 @@
 
 .nav-links a:hover {
     text-decoration: underline;
+}
+
+.mission {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    background-size:cover;
+    background-position: center;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission-text {
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 20px;
+    width: 100%;
+    max-width: 1200px;
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+}
+
+
+.mission-text h2{
+    font-size: 32px;
+    font-weight: bold;
+    color: seashell;
+    text-align: center;
+}
+
+.mission-text h4 {
+    font-size: 18px;
+    font-weight: lighter;
+    color: seashell;
+    margin-top: 10px; 
+
 }
